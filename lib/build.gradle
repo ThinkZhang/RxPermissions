@@ -26,8 +26,8 @@ android {
 
 dependencies {
     implementation rootProject.ext.rxJava
-    implementation rootProject.ext.supportAnnotations
-    implementation rootProject.ext.supportFragment
+    implementation 'androidx.annotation:annotation:1.0.0'
+    implementation 'androidx.fragment:fragment:1.0.0'
 
     testImplementation rootProject.ext.junit
     testImplementation rootProject.ext.mockito

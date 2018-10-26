@@ -5,7 +5,7 @@ android {
 
     defaultConfig {
         applicationId "com.tbruyelle.rxpermissions.sample"
-        minSdkVersion 14
+        minSdkVersion 19
 
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
@@ -20,7 +20,7 @@ android {
 dependencies {
     implementation project(':rxpermissions')
 
-    implementation rootProject.ext.appCompat
+    implementation 'androidx.appcompat:appcompat:1.0.0'
     implementation 'com.jakewharton.rxbinding2:rxbinding:2.1.1'
 
     testImplementation rootProject.ext.junit
